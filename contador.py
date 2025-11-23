@@ -8,7 +8,7 @@ def incrementar():
 # Crear ventana principal
 ventana = tk.Tk()
 ventana.title("Contador de visitas")
-ventana.geometry("250x120")
+ventana.geometry("250x140")
 
 # Visor de número (inicia en 0)
 label_numero = tk.Label(ventana, text="0", font=("Arial", 32))
